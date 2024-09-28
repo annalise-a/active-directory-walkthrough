@@ -119,18 +119,18 @@ You can select DHCP and DNS Server for later use.
 Congratulations! You have successfully set up the Server and Domain Controller.
 
 ## Section 5: Assigning a Static IP Address to the Server
-Assigning a static IP address to a server is best practice and important for consistent access and easy troubleshooting.
+- Assigning a static IP address to a server is best practice and important for consistent access and easy troubleshooting.
 
 **5.1** Open the Command Prompt in the Server VM and type `ipconfig` to note the IPv4 Address, Subnet Mask, and Default Gateway.  
 ![5.1 image](/images/5.1.png)
 
 **5.2** Open Ethernet Settings by typing Ethernet in the search bar, then go to Change adapter options.
-![5.2 image](/images/5.2.png)
 
 **5.3** Right-click the Ethernet adapter and select Properties. 
-![5.3 image](/images/5.3.png)
+![5.2 image](/images/5.2.png)
 
 **5.4** Choose IPv4 Properties, select Use the following IP address, and enter your IP Address, Subnet Mask, and Default Gateway.  
+![5.3 image](/images/5.3.png)
 
 Congratulations! You have successfully assigned a static IP address to your server.
 
