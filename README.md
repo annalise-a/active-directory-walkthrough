@@ -51,8 +51,7 @@ In this homelab, we'll be installing a server VM and a client VM, setting up Act
 - You should be greeted with this screen:
 ![2.8 image](/images/2.8.png)
 
-**2.9** Set the language, keyboard layout, and time zone as needed. Select Custom:
-- Install Windows Only (Advanced) for the installation type. 
+**2.9** Set the language, keyboard layout, and time zone as needed. Select Custom: Install Windows Only (Advanced) for the installation type. 
 ![2.9 image](/images/2.9.png)
 
 **2.10** Select the disk partition and click Next to start the installation.  
@@ -71,21 +70,21 @@ Congratulations! You have successfully installed the Client VM.
 - If needed, refer back to Section 2.
 
 **3.1** Create a new virtual machine as outlined in Section 2, but select Windows Server 2022 as the guest operating system.  
+![3.2 image](/images/3.2.png)
 
 **3.2** Set the Maximum Disk Capacity.  
 - Be sure to not set this too low especially for a server as it will not run/boot properly.  
 - I set mine at 60 GB for future use.
-![3.2 image](/images/3.2.png)
+![3.3 image](/images/3.3.png)
 
 **3.3** Choose the Windows Server 2022 ISO in the VM’s CD/DVD settings before powering on the server.  
-![3.3 image](/images/3.3.png)
+![3.4 image](/images/3.4.png)
 
 **3.4** Power on the VM and choose Windows Server 2022 Standard Evaluation (Desktop Experience) to install the version with a GUI.  
 - The other version does NOT include a GUI and is only command-line based.
-- ![3.4 image](/images/3.4.png)
+![3.5 image](/images/3.5.png)
 
 **3.5** Set up the Administrator password as prompted during the installation.  
-![3.5 image](/images/3.5.png)
 
 Congratulations! You have successfully installed the Server VM.
 
