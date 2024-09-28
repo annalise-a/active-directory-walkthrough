@@ -39,25 +39,27 @@ In this homelab, we'll be installing a server VM and a client VM, setting up Act
 
 **2.6** Set the Maximum Disk Capacity and leave the default Split virtual disk into multiple files.  
 - I set mine at 30 GB, you can set yours higher or lower as needed.  
-- Do not set it too low though because the OS will not boot then.  
+- Do not set it too low though because the OS will not boot then.
+![2.6 image](/images/2.6.png)
 
 **2.7** After the VM is created, right-click the VM and select Virtual Machine Settings > Hardware > CD/DVD (SATA). Choose Use ISO image file and select the Windows 10 Enterprise ISO.  
 ![2.7 image](/images/2.7.png)
 
 **2.8** Power on the VM. Press any key immediately to boot from the ISO file.  
-If you do not press any key fast enough, it will fail to boot.  
-To solve this, shut down the VM and power it back on and try again.  
-You should be greeted with this screen:
+- If you do not press any key fast enough, it will fail to boot.  
+- To solve this, shut down the VM and power it back on and try again.  
+- You should be greeted with this screen:
 ![2.8 image](/images/2.8.png)
 
-**2.9** Set the language, keyboard layout, and time zone as needed. Select Custom: Install Windows Only (Advanced) for the installation type. 
+**2.9** Set the language, keyboard layout, and time zone as needed. Select Custom:
+- Install Windows Only (Advanced) for the installation type. 
 ![2.9 image](/images/2.9.png)
 
 **2.10** Select the disk partition and click Next to start the installation.  
 ![2.10 image](/images/2.10.png)
 
 **2.11** After installation, select Domain Join instead and create a local user account.  
-Domain Join is at the bottom-left corner of this screen.
+- Domain Join is at the bottom-left corner of this screen.
 
 **2.12** Complete the remaining setup options. You can turn off these non-essential settings for this lab.  
 
@@ -95,7 +97,7 @@ Congratulations! You have successfully installed the Server VM.
 ![4.2 image](/images/4.2.png)
 
 **4.3** Checkbox Active Directory Domain Services.  
-You can select DHCP and DNS Server for later use.  
+- You can select DHCP and DNS Server for later use.  
 ![4.3 image](/images/4.3.png)
 
 **4.4** Continue through the feature options, then click Install at the confirmation window.  
@@ -159,12 +161,12 @@ Congratulations! You have successfully assigned a static IP address to your serv
 - You will leave the Group Scope and Group Type as the defaults.  
 - Just an overview of what these are:  
 - Scopes-  
-	- Domain Local Scope is restricted to the domain in which they are created.  
-	- Global Scope is limited to the domain they are created but can be used across the entire forest.  
-	- Universal Scope can be used across all domains within the forest.  
+	- **Domain Loca**l Scope is restricted to the domain in which they are created.  
+	- **Global** Scope is limited to the domain they are created but can be used across the entire forest.  
+	- **Universal** Scope can be used across all domains within the forest.  
 - Group Types-  
-	- Security Groups are used to assign permissions to shared resources, allowing members to access specific files or applications.  
-	- Distribution Groups are usually used for email distribution lists. They do not have security permissions.
+	- **Security** **Groups** are used to assign permissions to shared resources, allowing members to access specific files or applications.  
+	- **Distribution Groups** are usually used for email distribution lists. They do not have security permissions.
  ![6.5 image](/images/6.5.png)
 ![6.5 image](/images/6.5_2.png)
 
