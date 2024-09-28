@@ -23,6 +23,7 @@ In this homelab, we'll be installing a server VM and a client VM, setting up Act
 
 ## Section 2: Installing the Client VM (Windows 10 Enterprise)
 **2.1** Open your selected hypervisor and create a New Virtual Machine.  
+![2.1 image](/images/2.1.png)
 
 **2.2** In the New Virtual Machine Wizard, leave the configuration on Typical and click Next.  
 
