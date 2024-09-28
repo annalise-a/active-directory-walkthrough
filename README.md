@@ -54,6 +54,7 @@ You should be greeted with this screen:
 ![2.9 image](/images/2.9.png)
 
 **2.10** Select the disk partition and click Next to start the installation.  
+![2.10 image](/images/2.10.png)
 
 **2.11** After installation, select Domain Join instead and create a local user account.  
 Domain Join is at the bottom-left corner of this screen.
